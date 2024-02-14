@@ -1,9 +1,9 @@
 <?php 
 //This will get an array of all the gif, jpg and png images in a folder 
-$img_array = glob("这里填你文件路径，当前目录下的话删掉这句话即可*.{gif,jpg,png}",GLOB_BRACE); 
+$img_array = glob("",GLOB_BRACE); 
  
 //Domain Setting
-$domain = '这里填你的域名';
+$domain = 'jpg.bfeyy.cloudns.org';
  
 //Pick a random image from the array 
 $img = array_rand($img_array); 
